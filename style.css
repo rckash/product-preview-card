@@ -1,0 +1,50 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  background-color: hsl(30, 38%, 92%);
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-card {
+  background-color: hsl(0, 0%, 100%);
+  max-width: 90%;
+  min-height: 90%;
+}
+
+img {
+  max-inline-size: 100%;
+}
+
+p {
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+}
+
+.product-category {
+  text-transform: uppercase;
+}
+
+h1 {
+  color: hsl(212, 21%, 14%);
+  font-family: "Fraunces", serif;
+}
+
+h2 {
+  font-family: "Fraunces", serif;
+  color: hsl(158, 36%, 37%);
+}
+
+button {
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Montserrat", sans-serif;
+}
