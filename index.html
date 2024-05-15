@@ -19,10 +19,18 @@
   <body>
     <main>
       <div class="product-card">
-        <img
-          src="./images/image-product-mobile.jpg"
-          alt="Gabrielle Essence Eau De Parfum"
-        />
+        <div>
+          <picture>
+            <source
+              srcset="./images/image-product-desktop.jpg"
+              media="(min-width: 600px)"
+            />
+            <img
+              src="./images/image-product-mobile.jpg"
+              alt="Gabrielle Essence Eau De Parfum"
+            />
+          </picture>
+        </div>
 
         <div class="text-button-content">
           <p class="product-category product-detail">Perfume</p>
